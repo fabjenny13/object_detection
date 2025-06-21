@@ -1,4 +1,46 @@
+# Urban Vision Hackathon - Phase 2 Scripts
 
+This repository contains data processing and evaluation scripts for the Urban Vision Hackathon Phase 2.
+
+## Scripts Available
+
+### 1. Data Processing Script (`scripts/data_processing_tutorial.py`)
+Processes collaborative annotation data from CSV files to generate annotation matrices and user performance metrics.
+
+**Quick Start:**
+```bash
+# Install requirements
+pip install -r requirements.txt
+
+# Basic usage - analyze sample data
+python scripts/data_processing_tutorial.py
+
+# Analyze specific image
+python scripts/data_processing_tutorial.py --image-id 12345
+
+# Get user accuracy for specific user and image
+python scripts/data_processing_tutorial.py --image-id 12345 --user-id 6483 --user-analysis
+```
+
+### 2. Evaluation Script (`scripts/evaluation.py`)
+Calculates mAP and accuracy metrics for object detection models in COCO format.
+
+**Quick Start:**
+```bash
+python scripts/evaluation.py ground_truth.json predictions.json
+```
+
+## Requirements
+```bash
+pip install -r requirements.txt
+```
+
+## Data Format
+The data processing script expects CSV files with:
+- `phase_2_image.csv` - Image metadata
+- `phase_2_user_annotation.csv` - User annotations  
+- `phase_2_user_progression_score.csv` - User performance data
+- `phase_2_user_image_user_annotation.csv` - User assignments
 
 ---
 

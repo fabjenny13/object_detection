@@ -1,0 +1,87 @@
+2025-06-21 16:02:24,998 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:02:24,998 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:02:25,001 - ERROR - [data_processing_tutorial.py:155] - Error loading CSV data: [Errno 2] No such file or directory: 'open_data/phase_2_image.csv'
+2025-06-21 16:02:25,001 - ERROR - [data_processing_tutorial.py:495] - Failed to load CSV data
+2025-06-21 16:04:15,591 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:04:15,591 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:04:15,610 - INFO - [data_processing_tutorial.py:133] - Loaded 26699 image records
+2025-06-21 16:04:19,078 - INFO - [data_processing_tutorial.py:137] - Loaded 1799386 annotation records
+2025-06-21 16:04:19,102 - INFO - [data_processing_tutorial.py:141] - Loaded 13120 user progression records
+2025-06-21 16:04:19,269 - INFO - [data_processing_tutorial.py:145] - Loaded 127742 user assignment records
+2025-06-21 16:04:19,291 - INFO - [data_processing_tutorial.py:407] - Found 5 users who annotated image 436943
+2025-06-21 16:04:19,304 - INFO - [data_processing_tutorial.py:232] - Found 42 annotations for image 436943
+2025-06-21 16:04:19,307 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (5, 10)
+2025-06-21 16:04:19,307 - INFO - [data_processing_tutorial.py:418] - Image 436943: 1920x1080, difficulty: 38, scheduled users: 5
+2025-06-21 16:04:19,314 - INFO - [data_processing_tutorial.py:407] - Found 1 users who annotated image 251124
+2025-06-21 16:04:19,319 - INFO - [data_processing_tutorial.py:232] - Found 13 annotations for image 251124
+2025-06-21 16:04:19,320 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (1, 13)
+2025-06-21 16:04:19,320 - INFO - [data_processing_tutorial.py:418] - Image 251124: 1920x1080, difficulty: 38, scheduled users: 4
+2025-06-21 16:04:19,325 - INFO - [data_processing_tutorial.py:407] - Found 4 users who annotated image 532956
+2025-06-21 16:04:19,334 - INFO - [data_processing_tutorial.py:232] - Found 64 annotations for image 532956
+2025-06-21 16:04:19,336 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (4, 16)
+2025-06-21 16:04:19,336 - INFO - [data_processing_tutorial.py:418] - Image 532956: 1920x1080, difficulty: 38, scheduled users: 4
+2025-06-21 16:04:19,341 - INFO - [data_processing_tutorial.py:526] - Tutorial completed in 3.75 seconds
+2025-06-21 16:06:23,147 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:06:23,147 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:06:23,165 - INFO - [data_processing_tutorial.py:133] - Loaded 26699 image records
+2025-06-21 16:06:26,427 - INFO - [data_processing_tutorial.py:137] - Loaded 1799386 annotation records
+2025-06-21 16:06:26,448 - INFO - [data_processing_tutorial.py:141] - Loaded 13120 user progression records
+2025-06-21 16:06:26,608 - INFO - [data_processing_tutorial.py:145] - Loaded 127742 user assignment records
+2025-06-21 16:06:26,628 - INFO - [data_processing_tutorial.py:407] - Found 1 users who annotated image 287188
+2025-06-21 16:06:26,636 - INFO - [data_processing_tutorial.py:232] - Found 2 annotations for image 287188
+2025-06-21 16:06:26,637 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (1, 2)
+2025-06-21 16:06:26,637 - INFO - [data_processing_tutorial.py:418] - Image 287188: 1920x1080, difficulty: 29, scheduled users: 2
+2025-06-21 16:06:26,641 - INFO - [data_processing_tutorial.py:407] - Found 7 users who annotated image 1069
+2025-06-21 16:06:26,651 - INFO - [data_processing_tutorial.py:232] - Found 63 annotations for image 1069
+2025-06-21 16:06:26,653 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (7, 9)
+2025-06-21 16:06:26,653 - INFO - [data_processing_tutorial.py:418] - Image 1069: 1920x1080, difficulty: 35, scheduled users: 7
+2025-06-21 16:06:26,657 - INFO - [data_processing_tutorial.py:407] - Found 5 users who annotated image 196359
+2025-06-21 16:06:26,666 - INFO - [data_processing_tutorial.py:232] - Found 31 annotations for image 196359
+2025-06-21 16:06:26,667 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (5, 7)
+2025-06-21 16:06:26,668 - INFO - [data_processing_tutorial.py:418] - Image 196359: 1920x1080, difficulty: 36, scheduled users: 5
+2025-06-21 16:06:26,669 - INFO - [data_processing_tutorial.py:526] - Tutorial completed in 3.52 seconds
+2025-06-21 16:06:48,796 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:06:48,797 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:06:48,813 - INFO - [data_processing_tutorial.py:133] - Loaded 26699 image records
+2025-06-21 16:06:52,396 - INFO - [data_processing_tutorial.py:137] - Loaded 1799386 annotation records
+2025-06-21 16:06:52,420 - INFO - [data_processing_tutorial.py:141] - Loaded 13120 user progression records
+2025-06-21 16:06:52,582 - INFO - [data_processing_tutorial.py:145] - Loaded 127742 user assignment records
+2025-06-21 16:06:52,605 - INFO - [data_processing_tutorial.py:407] - Found 1 users who annotated image 139685
+2025-06-21 16:06:52,612 - INFO - [data_processing_tutorial.py:232] - Found 7 annotations for image 139685
+2025-06-21 16:06:52,613 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (1, 7)
+2025-06-21 16:06:52,613 - INFO - [data_processing_tutorial.py:418] - Image 139685: 1920x1080, difficulty: 37, scheduled users: 5
+2025-06-21 16:06:52,619 - INFO - [data_processing_tutorial.py:407] - Found 8 users who annotated image 210276
+2025-06-21 16:06:52,628 - INFO - [data_processing_tutorial.py:232] - Found 118 annotations for image 210276
+2025-06-21 16:06:52,631 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (8, 20)
+2025-06-21 16:06:52,631 - INFO - [data_processing_tutorial.py:418] - Image 210276: 1920x1080, difficulty: 41, scheduled users: 9
+2025-06-21 16:06:52,638 - INFO - [data_processing_tutorial.py:407] - Found 2 users who annotated image 844885
+2025-06-21 16:06:52,645 - INFO - [data_processing_tutorial.py:232] - Found 32 annotations for image 844885
+2025-06-21 16:06:52,646 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (2, 16)
+2025-06-21 16:06:52,646 - INFO - [data_processing_tutorial.py:418] - Image 844885: 1920x1080, difficulty: 67, scheduled users: 9
+2025-06-21 16:06:52,651 - INFO - [data_processing_tutorial.py:526] - Tutorial completed in 3.86 seconds
+2025-06-21 16:07:01,545 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:07:01,545 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:07:01,558 - INFO - [data_processing_tutorial.py:133] - Loaded 26699 image records
+2025-06-21 16:07:04,685 - INFO - [data_processing_tutorial.py:137] - Loaded 1799386 annotation records
+2025-06-21 16:07:04,716 - INFO - [data_processing_tutorial.py:141] - Loaded 13120 user progression records
+2025-06-21 16:07:04,879 - INFO - [data_processing_tutorial.py:145] - Loaded 127742 user assignment records
+2025-06-21 16:07:04,896 - INFO - [data_processing_tutorial.py:407] - Found 4 users who annotated image 350696
+2025-06-21 16:07:04,905 - INFO - [data_processing_tutorial.py:232] - Found 60 annotations for image 350696
+2025-06-21 16:07:04,907 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (4, 15)
+2025-06-21 16:07:04,907 - INFO - [data_processing_tutorial.py:418] - Image 350696: 1920x1080, difficulty: 38, scheduled users: 5
+2025-06-21 16:07:04,914 - INFO - [data_processing_tutorial.py:407] - Found 6 users who annotated image 841761
+2025-06-21 16:07:04,925 - INFO - [data_processing_tutorial.py:232] - Found 102 annotations for image 841761
+2025-06-21 16:07:04,927 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (6, 17)
+2025-06-21 16:07:04,927 - INFO - [data_processing_tutorial.py:418] - Image 841761: 1920x1080, difficulty: 41, scheduled users: 6
+2025-06-21 16:07:04,933 - INFO - [data_processing_tutorial.py:407] - Found 4 users who annotated image 910005
+2025-06-21 16:07:04,944 - INFO - [data_processing_tutorial.py:232] - Found 25 annotations for image 910005
+2025-06-21 16:07:04,945 - INFO - [data_processing_tutorial.py:326] - Generated annotation matrix with shape (4, 7)
+2025-06-21 16:07:04,945 - INFO - [data_processing_tutorial.py:418] - Image 910005: 1920x1080, difficulty: 28, scheduled users: 5
+2025-06-21 16:07:04,947 - INFO - [data_processing_tutorial.py:526] - Tutorial completed in 3.40 seconds
+2025-06-21 16:09:06,740 - INFO - [data_processing_tutorial.py:489] - Starting Data Processing Tutorial
+2025-06-21 16:09:06,740 - INFO - [data_processing_tutorial.py:129] - Loading CSV data files...
+2025-06-21 16:09:06,757 - INFO - [data_processing_tutorial.py:133] - Loaded 26699 image records
+2025-06-21 16:09:10,159 - INFO - [data_processing_tutorial.py:137] - Loaded 1799386 annotation records
+2025-06-21 16:09:10,180 - INFO - [data_processing_tutorial.py:141] - Loaded 13120 user progression records
+2025-06-21 16:09:10,338 - INFO - [data_processing_tutorial.py:145] - Loaded 127742 user assignment records
+2025-06-21 16:09:10,343 - INFO - [data_processing_tutorial.py:526] - Tutorial completed in 3.60 seconds
