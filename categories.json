@@ -1,0 +1,79 @@
+{
+"categories": [
+    {
+      "supercategory": "Defect",
+      "id": 1,
+      "name": "Hatchback"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 2,
+      "name": "Sedan"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 3,
+      "name": "SUV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 4,
+      "name": "MUV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 5,
+      "name": "Bus"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 6,
+      "name": "Truck"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 7,
+      "name": "Three Wheeler"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 8,
+      "name": "Two Wheeler"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 9,
+      "name": "LCV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 10,
+      "name": "Mini Bus"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 11,
+      "name": "Mini-truck"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 12,
+      "name": "Tempo-Traveller"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 13,
+      "name": "Bicycle"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 14,
+      "name": "Vans"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 15,
+      "name": "Others"
+    }
+  ]
+}
