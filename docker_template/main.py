@@ -2,8 +2,8 @@ import os
 import json
 import argparse
 
-
-from PIL import Image
+import shutil
+import pandas as pd
 from ultralytics import YOLO
 
 def create_coco_annotations(image_dir: str, output_dir: str) -> None:
@@ -66,7 +66,7 @@ def create_coco_annotations(image_dir: str, output_dir: str) -> None:
         # -*- coding: utf-8 -*-
 
 
-        import pandas as pd
+        
 
         images_df = pd.read_csv("/home/hackathon/404_found/data/annotations/phase_2_image.csv")
         annotations_df = pd.read_csv("/home/hackathon/404_found/data/annotations/phase_2_user_annotation.csv")
@@ -81,15 +81,6 @@ def create_coco_annotations(image_dir: str, output_dir: str) -> None:
         merged = merged.merge(merged_users, on = "image_id", how = "inner")
 
         #extracting bounding boxes
-
-        import os
-
-        from PIL import Image
-
-        import shutil
-
-
-
         limit = int(0.7 * len(merged))  # 70% of the total rows
 
         for index, row in merged.iloc[:limit].iterrows():
@@ -169,7 +160,12 @@ def create_coco_annotations(image_dir: str, output_dir: str) -> None:
 
         model = YOLO("yolo11s.pt")
 
-        model.train(data="/home/hackathon/404_found/dataset/data.yaml", epochs=50, imgsz=640, save_period = 1)
+        print("Training begun.")
+        model.train(data="/home/hackathon/404_found/dataset/data.yaml", epochs=5, imgsz=640, batch = 64, save_period = 1)
+        print("Training complete.")
+
+        model.save('best.pt')
+        print("model saved")
         #metrics = model.val()
         
         # TODO: Create annotations for detected objects
@@ -189,7 +185,7 @@ def create_coco_annotations(image_dir: str, output_dir: str) -> None:
 
         model = YOLO("best.pt")  # path to your downloaded model
 
-        results = model("/home/hackathon/404_found/data/val-images.jpg", save = True)  # or a folder of images
+        results = model(image_dir, save = True)  # or a folder of images
         results[0].show()  # to visualize
 
         # Replace this with your actual class list
