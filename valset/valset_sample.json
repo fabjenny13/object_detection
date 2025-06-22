@@ -1,0 +1,119 @@
+{
+  "images": [
+    {
+      "file_name": "Hyderbad_Bryani_Victoria_Lyt_FIX_3_time_2024-07-03T17_3A53_3A13_000_rain_frame_0671.jpg",
+      "height": 1080,
+      "width": 1920,
+      "id": 0
+    },
+    {
+      "file_name": "Jeevaraj_Alva_Rd_FIX_1_time_2024-07-03T17_3A48_3A06_000_rain_frame_0107.jpg",
+      "height": 1080,
+      "width": 1920,
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "supercategory": "Defect",
+      "id": 1,
+      "name": "Hatchback"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 2,
+      "name": "Sedan"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 3,
+      "name": "SUV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 4,
+      "name": "MUV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 5,
+      "name": "Bus"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 6,
+      "name": "Truck"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 7,
+      "name": "Three Wheeler"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 8,
+      "name": "Two Wheeler"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 9,
+      "name": "LCV"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 10,
+      "name": "Mini Bus"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 11,
+      "name": "Mini-truck"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 12,
+      "name": "Tempo-Traveller"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 13,
+      "name": "Bicycle"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 14,
+      "name": "Vans"
+    },
+    {
+      "supercategory": "Defect",
+      "id": 15,
+      "name": "Others"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 95,
+      "bbox": [
+        579.26,
+        68.169,
+        134.132,
+        177.427
+      ],
+      "area": -48633.795024,
+      "category_id": 9
+    },
+    {
+      "id": 2,
+      "image_id": 95,
+      "bbox": [
+        128.888,
+        141.762,
+        298.298,
+        254.465
+      ],
+      "area": 19093.01523,
+      "category_id": 6
+    }
+  ]
+}
